@@ -11141,9 +11141,6 @@ textarea.form-control-lg {
 }
 .btn-rounded span svg {
   fill: #fff;
-  width: 1rem;
-  height: 1rem;
-  line-height: 2.5rem;
 }
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
@@ -11151,6 +11148,21 @@ textarea.form-control-lg {
 }
 .btn-rounded:hover span {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  font-weight: 700;
+  display: inline-block;
+}
+.display-2--description {
+  font-size: 2rem;
+  line-height: 1.5;
+  display: block;
+  margin-top: 1.2rem;
 }
 
 .menu {
@@ -11166,6 +11178,23 @@ textarea.form-control-lg {
 }
 .menu li a:hover {
   text-decoration: underline;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.intros .video-box a span svg {
+  fill: #d122e3;
 }
 
 /*# sourceMappingURL=styles.css.map */
