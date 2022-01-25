@@ -1,0 +1,25 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+#portfolio {
+    .card {
+        margin-bottom: 1rem;
+        transition: all 200ms ease-in-out;
+
+        &-img-top {
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            @media (max-width: 576px) {
+                height: 300px;
+            }
+        }
+
+        @media (min-width: 768px){
+        &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+}

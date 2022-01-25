@@ -11262,4 +11262,25 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
+#portfolio .card {
+  margin-bottom: 1rem;
+  transition: all 200ms ease-in-out;
+}
+#portfolio .card-img-top {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+  #portfolio .card-img-top {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  #portfolio .card:hover {
+    transform: scale(1.02);
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
