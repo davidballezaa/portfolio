@@ -11189,6 +11189,11 @@ textarea.form-control-lg {
   display: block;
   margin-top: 1.2rem;
 }
+@media (max-width: 768px) {
+  .display-2--description {
+    font-size: 1.5rem;
+  }
+}
 
 .heading-line::before {
   content: "";
