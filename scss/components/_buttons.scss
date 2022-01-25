@@ -36,3 +36,19 @@
     }
   }
 }
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: $primary;
+  border-radius: 50%;
+  border: none;
+  display: none;
+
+  svg {
+    fill: $white;
+  }
+}
