@@ -37,7 +37,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#getStarted">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <button type="button" class="rounded-pill btn-rounded d-none d-lg-inline-block">+1 7224430687
@@ -64,7 +64,7 @@
                             <span class="display-2--description">This is a multi-purpose layout created with Bootstrap
                                 5</span>
                         </h1>
-                        <a href="#getStarted" class="rounded-pill btn-rounded">Get in Touch
+                        <a href="#contact" class="rounded-pill btn-rounded">Get in Touch
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                                     class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -315,6 +315,61 @@
                 </div>
             </div>
         </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="display-3 fw-bold text-capitalize me-3">Contact</h2>
+                    <div class="heading-line"></div>
+                </div>
+                <div class="row text-white">
+                    <div
+                        class="col-md-6 form-info p-4 shadow d-flex flex-column justify-content-center align-items-center">
+                        <div class="cta-info">
+                            <h4 class="display-4 fw-bold">Hello There!</h4>
+                            <p>Submit your info and I will get in contact with you as soon as possible</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-4 bg-white shadow text-black">
+                        <form action="/" class="row" method="POST">
+                            <div class="mb-3 col-sm-6">
+                                <label for="firstName" class="form-label">First Name:</label>
+                                <input type="text" class="form-control" name="firstName" id="firstName" required>
+                            </div>
+
+                            <div class="mb-3 col-sm-6">
+                                <label for="lastName" class="form-label">Last Name:</label>
+                                <input type="text" class="form-control" name="lastName" id="lastName" required>
+                            </div>
+
+                            <div class="mb-3 col-12">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message:</label>
+                                <textarea class="form-control" name="message" id="message" rows="6" required></textarea>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-secondary">Send
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                            <path
+                                                d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- BACK TO TOP BUTTON -->

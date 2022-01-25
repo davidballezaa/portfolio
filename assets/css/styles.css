@@ -11175,6 +11175,13 @@ textarea.form-control-lg {
   fill: #fff;
 }
 
+.btn-secondary {
+  color: #fff;
+}
+.btn-secondary:hover {
+  color: #fff;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -11232,6 +11239,11 @@ textarea.form-control-lg {
 .intro-section {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
+.intro-section a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
 
 .intros .video-box {
   position: relative;
@@ -11281,6 +11293,13 @@ textarea.form-control-lg {
   #portfolio .card:hover {
     transform: scale(1.02);
   }
+}
+
+#contact {
+  background-color: #e9ecef;
+}
+#contact .form-info {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 
 /*# sourceMappingURL=styles.css.map */

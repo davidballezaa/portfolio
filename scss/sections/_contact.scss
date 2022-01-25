@@ -1,0 +1,10 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+#contact {
+
+    background-color: $gray-200;
+    .form-info {
+        @include gradient;
+    }
+}
