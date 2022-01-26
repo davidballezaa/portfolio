@@ -11295,6 +11295,10 @@ textarea.form-control-lg {
   }
 }
 
+#faq .accordion .accordion-body {
+  text-align: justify;
+}
+
 #contact {
   background-color: #e9ecef;
 }
