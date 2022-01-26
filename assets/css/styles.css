@@ -11162,8 +11162,8 @@ textarea.form-control-lg {
 
 #btn-back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   width: 2.5rem;
   height: 2.5rem;
   background-color: #9926f0;
