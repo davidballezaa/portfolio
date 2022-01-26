@@ -11277,6 +11277,9 @@ textarea.form-control-lg {
 #portfolio .card {
   margin-bottom: 1rem;
   transition: all 200ms ease-in-out;
+  border-radius: 1.25rem;
+  border: 1.25px solid #ced4da;
+  overflow: hidden;
 }
 #portfolio .card-img-top {
   height: 400px;
@@ -11288,6 +11291,9 @@ textarea.form-control-lg {
   #portfolio .card-img-top {
     height: 300px;
   }
+}
+#portfolio .card-footer {
+  border-top: 1.25px solid #ced4da;
 }
 @media (min-width: 768px) {
   #portfolio .card:hover {

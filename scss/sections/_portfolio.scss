@@ -5,6 +5,9 @@
     .card {
         margin-bottom: 1rem;
         transition: all 200ms ease-in-out;
+        border-radius: 1.25rem;
+        border: 1.25px solid $gray-400;
+        overflow: hidden;
 
         &-img-top {
             height: 400px;
@@ -14,6 +17,10 @@
             @media (max-width: 576px) {
                 height: 300px;
             }
+        }
+
+        &-footer {
+            border-top: 1.25px solid $gray-400;
         }
 
         @media (min-width: 768px){
