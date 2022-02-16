@@ -2,31 +2,31 @@
 @use "../components/mixins" as *;
 
 #portfolio {
-    .card {
-        margin-bottom: 1rem;
-        transition: all 200ms ease-in-out;
-        border-radius: 1.25rem;
-        border: 1.25px solid $gray-400;
-        overflow: hidden;
+  .card {
+    margin-bottom: 1rem;
+    transition: all 200ms ease-in-out;
+    border-radius: 1.25rem;
+    border: 1.25px solid $gray-400;
+    overflow: hidden;
 
-        &-img-top {
-            height: 400px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            @media (max-width: 576px) {
-                height: 300px;
-            }
-        }
-
-        &-footer {
-            border-top: 1.25px solid $gray-400;
-        }
-
-        @media (min-width: 768px){
-        &:hover {
-                transform: scale(1.02);
-            }
-        }
+    &-img-top {
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      @media (max-width: 576px) {
+        height: 300px;
+      }
     }
+
+    &-footer {
+      border-top: 1.25px solid $gray-400;
+    }
+
+    @media (min-width: 768px) {
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+  }
 }
